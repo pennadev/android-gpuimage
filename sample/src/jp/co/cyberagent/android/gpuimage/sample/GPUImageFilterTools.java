@@ -144,7 +144,7 @@ public class GPUImageFilterTools {
             	return new GPUImageHighlightShadowFilter(0.0f, 1.0f);
             case MONOCHROME:
             	return new GPUImageMonochromeFilter(1.0f, new float[]{0.6f, 0.45f, 0.3f, 1.0f});
-            case OPACITY:
+            case OPACITY: 
                 return new GPUImageOpacityFilter(1.0f);  
             case RGB:
                 return new GPUImageRGBFilter(1.0f, 1.0f, 1.0f);  

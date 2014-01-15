@@ -654,7 +654,11 @@ public class GPUImage {
 
         protected abstract int getImageOrientation() throws IOException;
     }
-
+    
+    public GPUImageRenderer getRenderer() {
+    	return mRenderer;
+    }
+    
     public interface ResponseListener<T> {
         void response(T item);
     }
