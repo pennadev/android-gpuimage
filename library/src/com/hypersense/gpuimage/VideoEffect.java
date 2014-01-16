@@ -111,7 +111,6 @@ public class VideoEffect {
 				bitmap.copyPixelsFromBuffer(frame.image.getByteBuffer());
 				bfm.setImage(bitmap);
 				
-				
 				bitmap = bfm.getBitmapWithFilterApplied();
 
 				IplImage image = IplImage.create(bitmap.getWidth(),
